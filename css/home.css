@@ -8,7 +8,6 @@ body {
   background: linear-gradient(135deg, #1F5099,#a5c9ff);
 }
 .user-info {
-
   justify-content: space-between;
   font-weight: bold;
 }
@@ -163,4 +162,57 @@ a{
   color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: #e6f5ff;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #1F5099,#a5c9ff);
+  }
+  .profile-icon {
+    width: 2.5rem; /* Ukuran gambar lebih kecil */
+  }
+  .card-container{
+    margin-right: 3rem;
+    margin-left: 1rem;
+  }
+  .card {
+    padding: 1rem;
+    width: 95%;
+    height: 13rem;
+  }
+  .card h4{
+    font-size: 1rem;
+  }
+  .card i{
+    width: 1%;
+  }
+  .card img {
+    max-width: 32%; 
+  }
+  .card .expiry{
+    font-size: 0.8rem;
+  }
+  .card .expiry p{
+    margin-right: 0.3rem;
+  }
+  .card .expiry span{
+    margin-left: 0.3rem;
+  }
+  .card-actions{
+    box-sizing: 1rem;
+    width: 95%;
+  }
+  .card-container .teks {
+    margin-right: -2rem;
+  }
+  .transactions-section {
+    margin: 5px;
+    padding-bottom: 50px; 
+  }
 }
