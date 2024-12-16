@@ -1,0 +1,88 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #ff4d4d;
+    z-index: 10;
+    padding: 20px 20px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-color: #e6f5ff;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #1F5099,#a5c9ff);
+}
+
+/* Gambar */
+.image-container img {
+    width: 50%;
+    max-width: 90%;
+    justify-content: center;
+    align-items: center;
+    max-height: 90%;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+a{
+    text-decoration: none;
+  }
+
+  .navbar {
+    position: fixed;
+    border-radius: 20px 20px 0 0;
+    bottom: 0;
+    width: 80%;
+    background-color: #ff4d4d;
+    padding: 0.1rem 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .navbar a {
+    font-weight: bold;
+    color: white;
+    font-size: 0.9rem;
+  }
+  .aktif {
+    color: #000000;
+    outline: none;
+    text-decoration: none;
+  }
+  .navbar a:hover, a:active, a:focus {
+    color: #1F5099;
+    outline: none;
+    text-decoration: none;
+  }
+  .navbar .central-button {
+    position: relative;
+    bottom: 15px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff3333;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 2rem;
+  }

@@ -1,0 +1,103 @@
+body {
+    background-color: #eaf6ff;
+}
+
+.chat-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.chat-bot-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.chat-message {
+    margin-top: 20px;
+}
+
+.message-bot {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 20%;
+}
+
+.message-user {
+    background-color: #cfe2ff;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-left: 20%;
+}
+
+.common-questions {
+    margin-top: 20px;
+}
+
+.common-questions a {
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+li:hover {
+    color: rgb(255, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    border-radius: 20px 20px 0 0;
+    bottom: 0;
+    width: 80%;
+    background-color: #ff4d4d;
+    padding: 0.1rem 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navbar a {
+    font-weight: bold;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.navbar a:hover,
+a:active,
+a:focus {
+    color: #1F5099;
+    outline: none;
+    text-decoration: none;
+}
+
+.navbar .central-button {
+    position: relative;
+    bottom: 15px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff3333;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 2rem;
+}

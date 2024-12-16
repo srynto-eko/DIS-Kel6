@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 3px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1F5099, #a5c9ff);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 70px;
+}
+
+.header {
+    background-color: #e63946;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 2px solid #ffccd5;
+}
+
+.header .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #e63946;
+}
+
+.header .username {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content {
+    padding: 15px; /* Kurangi padding untuk menghemat ruang */
+    max-height: 60vh; /* Batasi tinggi konten agar tidak terlalu panjang */
+    overflow-y: auto; /* Scroll jika konten melebihi batas */
+}
+
+.content .info {
+    margin-bottom: 15px;
+}
+
+.content .info label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.content .info input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: sticky; /* Menjaga tombol tetap terlihat */
+    bottom: 0;
+    background-color: #fff; /* Latar belakang tombol */
+    padding: 10px 0; /* Ruang untuk tombol */
+    border-top: 1px solid #ddd; /* Garis pemisah */
+}
+
+.save-button,
+.cancel-button {
+    padding: 8px 10px; /* Ukuran padding tombol lebih kecil */
+    font-size: 14px; /* Ukuran font lebih kecil */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    flex: 1; /* Membuat tombol memiliki lebar yang sama */
+}
+
+.save-button {
+    background-color: #e63946;
+    color: #fff;
+}
+
+.save-button:hover {
+    background-color: #d32f2f;
+}
+
+.cancel-button {
+    background-color: #ddd;
+    color: #333;
+}
+
+.cancel-button:hover {
+    background-color: #bbb;
+}
+
+.navbar {
+    position: fixed; /* Navbar tetap di bawah */
+    border-radius: 20px 20px 0 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Posisi di tengah horizontal */
+    width: 80%;
+    background-color: #ff4d4d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.1rem 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    font-weight: bold;
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar .central-button {
+    position: relative;
+    bottom: 15px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff3333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+    font-size: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a:hover,
+.navbar a:active {
+    color: #1F5099;
+}
+
+.aktif {
+    color: black;
+}

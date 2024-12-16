@@ -1,0 +1,141 @@
+body {
+    background: linear-gradient(135deg, #1F5099, #a5c9ff);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: #e63946;
+    font-weight: bold;
+}
+
+.back-icon {
+    font-size: 20px;
+    cursor: pointer;
+    color: #e63946;
+}
+
+.profile-section {
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.username {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e63946;
+}
+
+.profile-info {
+    margin-top: 10px;
+}
+
+.profile-header i {
+    color: #777;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.info-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info-item label {
+    color: #555;
+    flex: 1;
+}
+
+.info-item span {
+    flex: 2;
+    color: #666;
+    text-align: right;
+    line-height: 1.5;
+}
+
+.edit-icon {
+    color: #e63946;
+    cursor: pointer;
+    margin-left: 10px;
+}
+a {
+    text-decoration: none;
+}
+.navbar {
+    position: fixed;
+    border-radius: 20px 20px 0 0;
+    bottom: 0;
+    width: 80%;
+    background-color: #ff4d4d;
+    padding: 0.1rem 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navbar a {
+    font-weight: bold;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.aktif {
+    color: #000000;
+    outline: none;
+    text-decoration: none;
+}
+
+.navbar .central-button {
+    position: relative;
+    bottom: 15px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff3333;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 2rem;
+}
+
+.navbar a:hover,
+a:active,
+a:focus {
+    color: #1F5099;
+    outline: none;
+    text-decoration: none;
+}

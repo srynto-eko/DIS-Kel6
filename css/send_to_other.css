@@ -1,0 +1,124 @@
+/* Background styling */
+body {
+    background: linear-gradient(to bottom, #a7e3fa, #ffcccc);
+    font-family: Arial, sans-serif;
+    height: 93vh;
+}
+
+/* Container styling */
+.form-container {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+a{
+    text-decoration: none;
+  }
+  
+  .navbar {
+    position: fixed;
+    border-radius: 20px 20px 0 0;
+    bottom: 0;
+    width: 80%;
+    background-color: #ff4d4d;
+    padding: 0.1rem 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .navbar a {
+    font-weight: bold;
+    color: white;
+    font-size: 0.9rem;
+  }
+  .navbar a:hover, a:active, a:focus {
+    color: #1F5099;
+    outline: none;
+    text-decoration: none;
+  }
+  .navbar .central-button {
+    position: relative;
+    bottom: 15px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff3333;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 2rem;
+  }
+
+/* Responsif */
+@media (max-width: 600px) {
+    .send-option {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .transaction-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .transaction-amount {
+        margin-top: 5px;
+    }
+}
+
+/* Button styling */
+.btn-send {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-send:hover {
+    background-color: darkred;
+}
+
+/* Modal styling */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-close-modal {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-close-modal:hover {
+    background-color: darkred;
+}

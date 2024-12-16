@@ -1,0 +1,126 @@
+body {
+    background: linear-gradient(135deg, #1F5099, #a5c9ff);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 80px auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 15px 20px 15px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.profile-header a {
+    text-decoration: none;
+}
+
+.profile-header .back-icon {
+    padding-top: 15px;
+    color: gray;
+    font-size: 1rem;
+}
+
+.profile-header h5 {
+    padding-top: 20px;
+    margin: auto;
+    font-size: 1.6rem;
+    color: #e63946;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.info-item label {
+    font-size: 1rem;
+    color: #333;
+}
+
+.profile-header i {
+    color: #777;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.info-item:hover i,
+.info-item:hover label {
+    color: #ff4d4d;
+}
+
+.navbar {
+    position: fixed;
+    border-radius: 20px 20px 0 0;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    background-color: #ff4d4d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.1rem 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    font-weight: bold;
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar .central-button {
+    position: relative;
+    bottom: 15px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff3333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    color: white;
+    font-size: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a:hover,
+.navbar a:active {
+    color: #1F5099;
+}
+
+.aktif {
+    color: black;
+}
